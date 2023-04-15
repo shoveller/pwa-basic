@@ -1,5 +1,5 @@
 {
-  "dir": "auto",
+  "scope": "/pwa-basic",
   "name": "PWA 테스트",
   "short_name": "오디언",
   "description": "설치형 웹페이지 데모",
