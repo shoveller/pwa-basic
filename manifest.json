@@ -1,13 +1,13 @@
 {
+  "dir": "auto",
   "name": "PWA 테스트",
   "short_name": "오디언",
   "description": "설치형 웹페이지 데모",
-  "scope": "/",
-  "start_url": "/",
+  "start_url": "https://shoveller.github.io/pwa-basic/",
   "display": "fullscreen",
   "orientation": "portrait",
-  "theme_color": "#FBCFE4",
-  "background_color": "#ffffff",
+  "theme_color": "none",
+  "background_color": "none",
   "lang": "ko",
   "icons": [
     {
