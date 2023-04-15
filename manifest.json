@@ -3,7 +3,7 @@
   "name": "PWA 테스트",
   "short_name": "오디언",
   "description": "설치형 웹페이지 데모",
-  "start_url": "https://shoveller.github.io/pwa-basic/",
+  "start_url": "/pwa-basic",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#FBCFE4",
@@ -11,7 +11,7 @@
   "lang": "ko",
   "icons": [
     {
-      "src": "./logo.png",
+      "src": "logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
