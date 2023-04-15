@@ -6,8 +6,8 @@
   "start_url": "https://shoveller.github.io/pwa-basic/",
   "display": "fullscreen",
   "orientation": "portrait",
-  "theme_color": "none",
-  "background_color": "none",
+  "theme_color": "#FBCFE4",
+  "background_color": "#ffffff",
   "lang": "ko",
   "icons": [
     {
