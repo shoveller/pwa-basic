@@ -1,19 +1,19 @@
 {
   "name": "PWA 테스트",
-  "short_name": "포켓몬",
-  "description": "서비스워커 데모",
+  "short_name": "오디언",
+  "description": "설치형 웹페이지 데모",
   "scope": "/",
   "start_url": "/",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
-  "theme_color": "#ffffff",
+  "theme_color": "#FBCFE4",
   "background_color": "#ffffff",
   "lang": "ko",
   "icons": [
     {
-      "src": "/vite.svg",
+      "src": "./logo.png",
       "sizes": "512x512",
-      "type": "image/svg"
+      "type": "image/png"
     }
   ]
 }

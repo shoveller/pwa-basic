@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/pwa-basic/vite.svg" />
     <!--    PWA 메니페스트 연결-->
-    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIlBXQSDthYzsiqTtirgiLAogICJzaG9ydF9uYW1lIjogIu2PrOy8k+uqrCIsCiAgImRlc2NyaXB0aW9uIjogIuyEnOu5hOyKpOybjOy7pCDrjbDrqqgiLAogICJzY29wZSI6ICIvIiwKICAic3RhcnRfdXJsIjogIi8iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsCiAgInRoZW1lX2NvbG9yIjogIiNmZmZmZmYiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICJsYW5nIjogImtvIiwKICAiaWNvbnMiOiBbCiAgICB7CiAgICAgICJzcmMiOiAiL3ZpdGUuc3ZnIiwKICAgICAgInNpemVzIjogIjUxMng1MTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmciCiAgICB9CiAgXQp9Cg==">
+    <link rel="manifest" href="/pwa-basic/manifest.json">
     <!--    뷰포트 설정-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
@@ -50,7 +50,7 @@
     
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service_worker.js').then(() => {
+        navigator.serviceWorker.register(`/pwa-basic/service_worker.js`).then(() => {
           console.log('서비스 워커 등록됨')
         })
       }

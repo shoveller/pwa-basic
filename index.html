@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <!--    PWA 메니페스트 연결-->
-    <link rel="manifest" href="./public/manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <!--    뷰포트 설정-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
@@ -48,7 +48,7 @@
     <script type="module" src="/src/main.ts"></script>
     <script>
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service_worker.js').then(() => {
+        navigator.serviceWorker.register(`%BASE_URL%/service_worker.js`).then(() => {
           console.log('서비스 워커 등록됨')
         })
       }

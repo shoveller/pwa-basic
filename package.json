@@ -2,11 +2,10 @@
   "name": "pwa-basic",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://shoveller.github.io/pwa-basic/",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite --mode dev",
+    "build": "tsc && vite build --mode prod",
     "preview": "vite preview --port 3000",
     "dist": "gh-pages -d dist -b gh-pages"
   },
