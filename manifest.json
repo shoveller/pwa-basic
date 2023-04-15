@@ -1,0 +1,19 @@
+{
+  "name": "PWA 테스트",
+  "short_name": "오디언",
+  "description": "설치형 웹페이지 데모",
+  "scope": "/",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#FBCFE4",
+  "background_color": "#ffffff",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
