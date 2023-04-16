@@ -2,7 +2,7 @@ const 캐시이름 = '캐시이름';
 const 캐시할_파일의_경로들 = [
     './', './index.html',
     './vite.svg', './manifest.json', './logo.png',
-    // './index.css', './index.js',
+    './index.css', './index.js',
     './images/IM1015878.jpeg', './images/IM1015893.jpeg',
     './images/IM1015894.jpeg', './images/IM1015895.jpeg',
     './images/IM1015896.jpeg', './images/IM1015897.jpeg',
