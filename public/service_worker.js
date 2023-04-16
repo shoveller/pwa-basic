@@ -17,7 +17,7 @@ self.addEventListener('install', (e) => {
             .then(cache => {
                 try {
                     캐시할_파일의_경로들.map(경로 => {
-                        (경로);
+                        cache.add(경로);
                     })
                 } finally {
 
