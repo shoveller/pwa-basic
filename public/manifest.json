@@ -1,9 +1,9 @@
 {
+  "scope": "/",
   "name": "PWA 테스트",
   "short_name": "오디언",
   "description": "설치형 웹페이지 데모",
-  "scope": "/",
-  "start_url": "/",
+  "start_url": "/pwa-basic",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#FBCFE4",
@@ -11,8 +11,8 @@
   "lang": "ko",
   "icons": [
     {
-      "src": "./logo.png",
-      "sizes": "512x512",
+      "src": "logo.png",
+      "sizes": "900x900",
       "type": "image/png"
     }
   ],

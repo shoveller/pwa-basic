@@ -1,8 +1,8 @@
 const 캐시이름 = '캐시';
 const 캐시할_파일들 = [
     './', './index.html',
-    './vite.svg', './manifest.json', './logo.png',
-    './assets/index-0f2605c7.css', './assets/index-5f78cd2b.js',
+    './vite.svg', './logo.png',
+    './assets/index.css', './assets/index.js',
     './images/IM1015878.jpeg', './images/IM1015893.jpeg',
     './images/IM1015894.jpeg', './images/IM1015895.jpeg',
     './images/IM1015896.jpeg', './images/IM1015897.jpeg',
