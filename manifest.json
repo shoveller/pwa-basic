@@ -1,9 +1,9 @@
 {
-  "scope": "https://shoveller.github.io/pwa-basic",
+  "scope": "/",
   "name": "PWA 테스트",
   "short_name": "오디언",
   "description": "설치형 웹페이지 데모",
-  "start_url": "https://shoveller.github.io/pwa-basic",
+  "start_url": "/",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#FBCFE4",
